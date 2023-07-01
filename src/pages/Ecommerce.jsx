@@ -26,7 +26,7 @@ function Ecommerce() {
             <div className='mt-6'> 
                   <Button
                     color="white"
-                    bgColor="blue"
+                    bgColor={currentColor}
                     text="Download"
                     borderRadius="10px"
                     size="md"
@@ -117,7 +117,7 @@ function Ecommerce() {
                         <div className='mt-10'> 
                           <Button
                             color="white"
-                            bgColor="blue"
+                            bgColor={currentColor}
                             text="Download"
                             borderRadius="10px"
                           /> 
